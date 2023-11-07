@@ -17,22 +17,59 @@ body {
     
 }
 
-#area{
+#area {
     width: 720px;
     margin: 0 auto;
-    border: 1px solid red;
+    
     
 }
 
-.verde{
+#logo {
+    float: left;
+}
+
+
+
+.verde {
     color: rgb(49, 121, 97);
 }
 
-#menu{
+#menu {
     float: right;
+    padding: 10px;
+    
 }
 
-#logo{
-    float: left;
+/*formatação dos menus*/
+
+a{
+text-decoration: none;
+padding: 5px 10px;
 }
+
+/*não visitados*/
+a:link{
+    color: #838383;
+
+}
+
+/*visitados*/
+a:visited{
+   color:#838383;
+}
+
+/*links hover*/
+a:hover{
+    background: rgb(49, 121, 97);
+    color: #fff;
+}
+
+/* links ativos*/
+
+
+
+
+
+
+
 
