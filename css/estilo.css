@@ -1,0 +1,38 @@
+/* limpar formatação padrão */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+#navegacao{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+    border: 1px solid red;
+    
+}
+
+.verde{
+    color: rgb(49, 121, 97);
+}
+
+#menu{
+    float: right;
+}
+
+#logo{
+    float: left;
+}
+
