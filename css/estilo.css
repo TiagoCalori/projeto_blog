@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+h2{
+    color: rgb(49, 121, 97);
+
+}
 body {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,7 +18,10 @@ body {
 #navegacao{
     background: #fff;
     border-bottom: 1px solid #d8d8d8;
-    height: 45px;
+    height: 45px;  
+    position: fixed;
+    width: 100%;
+    top: 0;
     
 }
 
@@ -38,7 +46,50 @@ body {
     float: right;
     padding: 10px;
     
+    
 }
+
+#area-postagem{
+    width: 720px;
+   /* margin: 0 auto;*/
+   margin: 55px auto 10px auto;
+    background-color: #fff;
+    
+    margin-bottom: 10px;
+    
+}
+
+#postagem-img{
+    
+    float: left;
+    margin: 0 5px 3px 0;
+
+}
+
+
+
+#postagem{
+
+    margin-bottom: 10px;
+
+}
+  
+
+.data-postagem{
+    font-size: 13px;
+   /* border-left: rgb(76, 115, 13) solid 5px;*/
+    border-bottom: 1px solid #408000;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.conteudo{
+    
+}
+
 
 /*formatação dos menus*/
 
@@ -65,7 +116,19 @@ a:hover{
 }
 
 /* links ativos*/
+a:active{
+    color: #317961;
+    background: #faf9f9;
 
+}
+
+.postado{
+    border-left: solid 5px #317961 ;
+    padding-left: 7px;
+    display: block;
+    margin-top: 10px;
+   
+}
 
 
 
